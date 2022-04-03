@@ -1,0 +1,20 @@
+.father{
+    border: 2px solid gold;
+    padding: 10px;
+    border-radius: 10px;
+}
+.father-child{
+    display: flex;
+    border: 2px solid gold;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+}
+.father-child div{
+    display: flex;
+    border: 2px solid gold;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
